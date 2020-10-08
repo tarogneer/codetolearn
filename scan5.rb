@@ -1,0 +1,1 @@
+p "abracatabra".scan(/.a/)
