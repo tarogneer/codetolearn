@@ -15,3 +15,11 @@ puts d >> 1
 puts d >> 2
 puts d << 1
 puts d << 2
+
+p d.year
+p d.month
+p d.day
+p d.mon
+p d.mday
+p d.succ
+p d.next
