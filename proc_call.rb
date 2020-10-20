@@ -1,3 +1,9 @@
 proc = Proc.new{|x| p x}
+proc.call(1)
 
-proc.call(1)ruby
+f = Proc.new{ puts "OK" }
+f.call
+
+g = Proc.new{|str| puts str}
+g.arity
+g.call("NG")
